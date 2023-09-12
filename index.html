@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Event</title>
+  <title>ザ米原</title>
+  <meta name="description" content="ザ米原">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -29,71 +30,331 @@
 
 <body>
 
-  <div class="bg-wraper overlay has-vignette">
-    <div id="example" class="slider opacity-50 vegas-container" style="height: 100vh;"></div>
-  </div>
+  <!-- Header Area wrapper Starts -->
+  <header id="header-wrap">
+    <div class="menu-wrap">
+      <div class="menu navbar">
+        <div class="menu-list navbar-collapse">
+          <ul class="onepage-nev navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Top</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="part_1.html">第1章「発信」</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://unispo-project.org/" target="_blank">第2章「出逢い」</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="part_3.html">第3章「希望」</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="part_4.html">第4章「未来」</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="close-button" id="close-button"><i class="lni-close"></i></button>
+    </div>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar menu-bg">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+            aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="lni-menu"></span>
+            <span class="lni-menu"></span>
+            <span class="lni-menu"></span>
+          </button>
+          <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt="" style="width: 150px;"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+            <li class="nav-item" id="open-button">
+              <a class="nav-link">
+                <i class="lni-menu"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-  <!-- Coundown Section Start -->
-  <section class="countdown-timer center b-0" style="background-color: #00000096;padding: 1%;top: 0;;margin: auto;">
+      <!-- Mobile Menu Start -->
+      <ul class="mobile-menu">
+        <li>
+          <a href="index.html">Top</a>
+        </li>
+        <li>
+          <a href="part_1.html">第1章「発信」</a>
+        </li>
+        <li>
+          <a href="https://unispo-project.org/" target="_blank">第2章「出逢い」</a>
+        </li>
+        <li>
+          <a href="part_3.html">第3章「希望」</a>
+        </li>
+        <li>
+          <a href="part_4.html">第4章「未来」</a>
+        </li>
+      </ul>
+      <!-- Mobile Menu End -->
+    </nav>
+    <!-- Navbar End -->
+  </header>
+
+  <style>
+    .time-count div {
+      background: rgba(0, 0, 0, 0.432) !important;
+    }
+  </style>
+
+  <!-- Intro Section Start -->
+  <section class="intro" style="background: url(assets/img/‎TOP.png) no-repeat;">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="heading-count">
-            <h2>Maibara is <br class="d-md-none">coming soon！</h2>
+            <h2>The Maibara is Comming</h2>
+            <!-- <p>Our exciting new website is coming soon! Check back later...</p> -->
           </div>
         </div>
         <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="row time-countdown justify-content-center">
+          <div class="row countdown justify-content-center">
             <div id="clock" class="time-count"></div>
           </div>
-
-          <div class="my-5">
-            <h6 class="font-weight-bold">第1章「発信」<br class="d-lg-none"><span
-                style="font-size: 0.8rem; line-height:40px">～米原の魅力を全国へ発信～</span></h6>
-            <a href="part_1.html" target="_blank" class="border py-2 px-4 bg-white text-dark"
-              style="border-radius: 30px;">
-              ▶︎詳細を見る </a>
+          <!-- <a href="#contact" class="btn btn-common">Contact Us</a>
+          <a href="#team" class="btn btn-border">About Us</a> -->
+          <div class="social mt-4">
+            <!-- <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a> -->
+            <!-- <a class="twitter" href="#"><i class="lni-twitter-filled"></i></a> -->
+            <a class="instagram" href="https://www.instagram.com/themaibara" target="_blank"><i
+                class="lni-instagram-filled"></i></a>
+            <!-- <a class="google" href="#"><i class="lni-google-plus"></i></a> -->
           </div>
-          <div class="my-5">
-            <h6 class="font-weight-bold">第2章「出逢い」<br class="d-lg-none"><span
-                style="font-size: 0.8rem; line-height:40px">～ユニバーサルスポーツを通じた米原での出逢い～</span></h6>
-            <a href="https://unispo-project.org" target="_blank" class="border py-2 px-4 bg-white text-dark"
-              style="border-radius: 30px;">
-              ▶︎詳細を見る </a>
-          </div>
-          <div class="my-5">
-            <h6 class="font-weight-bold">第3章「希望」<br class="d-lg-none"><span
-                style="font-size: 0.8rem; line-height:40px">～子ども・若者が夢を持てる米原の発信～</span></h6>
-            <a href="part_3.html" target="_blank" class="border py-2 px-4 bg-white text-dark"
-              style="border-radius: 30px;">
-              ▶︎詳細を見る </a>
-          </div>
-          <div class="my-5">
-            <h6 class="font-weight-bold">第4章「未来」<br class="d-lg-none"><span
-                style="font-size: 0.8rem; line-height:40px">～新しい米原のコト・モノを全国へ発信～</span></h6>
-            <a href="part_4.html" target="_blank" class="border py-2 px-4 bg-white text-dark"
-              style="border-radius: 30px;">
-              ▶︎詳細を見る </a>
-          </div>
-          <!-- <h6 class="my-3 font-weight-bold">
-            会場
-          </h6> -->
-          <!-- <h6 class="my-3 font-weight-bold">
-            <a href="https://bigbreath.jp/" target="_blank" class="py-3"> ＜BIG BREATH＞ </a>
-          </h6> -->
-          <!-- <div class="button-group">
-            <a href="#" class="btn btn-common" style="background-color: #0668d2;">お問い合わせはこちら</a>
-          </div> -->
-          <!-- <div class="social mt-4">
-            <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a>
-            <a class="twitter" href="#"><i class="lni-twitter-filled"></i></a>
-            <a class="instagram" href="#"><i class="lni-instagram-filled"></i></a>
-          </div> -->
+          <a href="#team" class="target-scroll page-scroll"><i class="lni-chevron-down"></i></a>
         </div>
       </div>
     </div>
   </section>
-  <!-- Coundown Section End -->
+  <!-- Intro Section End -->
+
+  <!-- Team Section Start -->
+  <section id="team" class="section-padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-8 col-xs-12 text-center">
+          <h6 class="subtitle">
+            Events
+          </h6>
+          <h2 class="section-title">
+            イベント概要
+          </h2>
+          <div class="section-info">
+            【会場】 BIG・BREATH (ビッグ・ブレス)<br>
+            〒521-0244 滋賀県米原市大野木1777
+            <br>
+            【TEL】 0749-56-0695
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <!-- Team Item Starts -->
+          <a href="part_1.html" class="team-item text-center">
+            <div class="team-img">
+              <img class="img-fluid" src="assets/img/p1_2.jpeg" alt="" style="height: 200px; object-fit: cover;">
+            </div>
+            <div class="info-text">
+              <h3>第1章</h3>
+              <h3>発信</h3>
+              <p>令和5年10月14日(土)</p>
+            </div>
+          </a>
+          <!-- Team Item Ends -->
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <!-- Team Item Starts -->
+          <a href="https://unispo-project.org/" class="team-item text-center">
+            <div class="team-img">
+              <img class="img-fluid" src="assets/img/p2_1.png" alt="" style="height: 200px; object-fit: cover;">
+            </div>
+            <div class="info-text">
+              <h3>第2章</h3>
+              <h3>出逢い</h3>
+              <p>令和5年10月15日(日)</p>
+            </div>
+          </a>
+          <!-- Team Item Ends -->
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <!-- Team Item Starts -->
+          <a href="part_3.html" class="team-item text-center">
+            <div class="team-img">
+              <img class="img-fluid" src="assets/img/p3_1.jpeg" alt="" style="height: 200px; object-fit: cover;">
+            </div>
+            <div class="info-text">
+              <h3>第3章</h3>
+              <h3>希望</h3>
+              <p>令和5年11月4日(土)</p>
+            </div>
+          </a>
+          <!-- Team Item Ends -->
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <!-- Team Item Starts -->
+          <a href="part_4.html" class="team-item text-center">
+            <div class="team-img">
+              <img class="img-fluid" src="assets/img/p4_2.jpeg" alt="" style="height: 200px; object-fit: cover;">
+            </div>
+            <div class="info-text">
+              <h3>第4章</h3>
+              <h3>未来</h3>
+              <p>令和5年11月5日(日)</p>
+            </div>
+          </a>
+          <!-- Team Item Ends -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Team Section End -->
+
+  <section id="services" class="section-padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-8 col-xs-12 text-center">
+          <h6 class="subtitle">
+            sponsors
+          </h6>
+          <h2 class="section-title">
+            協賛・協力・後援
+          </h2>
+          <!-- <div class="section-info">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nulla neque
+            tempore rerum dolore accusamus, eum, officia nostrum sequi explicabo aspernatur asperiores.
+          </div> -->
+        </div>
+      </div>
+      <div class="section-info">
+        共同開催
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp">
+          <div class="services-item">
+            <h3><a href="#">米原商工会</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp" data-delay="300">
+          <div class="services-item">
+            <h3><a href="#">米原ライオンズクラブ</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp" data-delay="600">
+          <div class="services-item">
+            <h3><a href="#">びわ湖の素DMO</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp" data-delay="600">
+          <div class="services-item">
+            <h3><a href="#">UNISPOプロジェクト実行委員会</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp" data-delay="600">
+          <div class="services-item">
+            <h3><a href="#">BIG・BREATH</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="section-info">
+        後援
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp">
+          <div class="services-item">
+            <h3><a href="#">滋賀県</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp" data-delay="300">
+          <div class="services-item">
+            <h3><a href="#">米原市</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp" data-delay="600">
+          <div class="services-item">
+            <h3><a href="#">米原市教育委員会</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp" data-delay="600">
+          <div class="services-item">
+            <h3><a href="#">長浜信用金庫</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp" data-delay="600">
+          <div class="services-item">
+            <h3><a href="#">米原山東工場部会</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp" data-delay="600">
+          <div class="services-item">
+            <h3><a href="#">米原スポーツ協会</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp" data-delay="600">
+          <div class="services-item">
+            <h3><a href="#">米原社会福祉協議会</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12 fadeInUp" data-animation="fadeInUp" data-delay="600">
+          <div class="services-item">
+            <h3><a href="#">びわ湖放送</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Map Section Start -->
+  <section id="google-map-area">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.513534813516!2d136.38973887582466!3d35.367717247132624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600232faf6328879%3A0x9b81fa95ffcee681!2z44OT44OD44Kw772l44OW44Os44K5!5e0!3m2!1sja!2sjp!4v1694485779540!5m2!1sja!2sjp"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Map Section End -->
+
+  <!-- Footer Section Start -->
+  <footer class="footer-area section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-text text-center">
+            <ul class="social-icon">
+              <li>
+                <a class="instagram" href="https://www.instagram.com/themaibara/" target="_blank"><i
+                    class="lni-instagram-filled"></i></a>
+              </li>
+            </ul>
+            <p>Copyright © 2023 THE MAIBARA</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section End -->
+
+  <!-- Go to Top Link -->
+  <a href="#" class="back-to-top">
+    <i class="lni-chevron-up"></i>
+  </a>
 
   <!-- Preloader -->
   <div id="preloader">
@@ -107,7 +368,9 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/vegas.min.js"></script>
   <script src="assets/js/jquery.countdown.min.js"></script>
+  <script src="assets/js/menu.js"></script>
   <script src="assets/js/classie.js"></script>
+  <script src="assets/js/scrolling-nav.js"></script>
   <script src="assets/js/jquery.nav.js"></script>
   <script src="assets/js/jquery.easing.min.js"></script>
   <script src="assets/js/wow.js"></script>
@@ -115,21 +378,8 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/form-validator.min.js"></script>
   <script src="assets/js/contact-form-script.min.js"></script>
-
-  <script type="text/javascript">
-    $("#example").vegas({
-      timer: false,
-      delay: 6000,
-      transitionDuration: 2000,
-      transition: "blur",
-      slides: [
-        { src: "assets/img/slide1.jpg" },
-        { src: "assets/img/slide2.jpg" },
-        { src: "assets/img/slide3.JPEG" },
-        { src: "assets/img/slide4.jpg" },
-        { src: "assets/img/slide5.JPEG" }
-      ]
-    });
+  <script src="assets/js/map.js"></script>
+  <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM">
   </script>
 
 </body>
