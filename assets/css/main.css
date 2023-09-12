@@ -575,6 +575,16 @@ a.back-to-top:hover, a.back-to-top:focus {
   position: relative;
 }
 
+.top_mv{
+  background: url(../img/‎TOP.png) no-repeat !important; background-size: cover;
+}
+
+@media screen and (max-width:780px) {
+  .top_mv{
+  background: url(../img/‎top_sp.png) no-repeat !important; background-size: cover;
+}
+}
+
 .intro .overlay {
   position: absolute;
   width: 100%;
