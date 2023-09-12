@@ -576,14 +576,14 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .top_mv{
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../img/‎TOP.png) no-repeat !important; background-size: cover !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/‎TOP.png) no-repeat !important; background-size: cover !important;
     background-position: center !important;
 }
 
 
 @media screen and (max-width:780px) {
   .top_mv{
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../img/‎top_sp.png) no-repeat !important; background-size: cover !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/‎top_sp.png) no-repeat !important; background-size: cover !important;
     background-position: center !important;
 }
 }
