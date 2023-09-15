@@ -825,10 +825,9 @@ a.back-to-top:hover, a.back-to-top:focus {
 .social a {
   display: inline-block;
   color: #fff;
-  margin-right: 5px;
-  width: 35px;
+  margin:20px;
   line-height: 35px;
-  font-size: 20px;
+  font-size: 50px;
   text-align: center;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -1202,18 +1201,22 @@ a.back-to-top:hover, a.back-to-top:focus {
 .footer-area .social-icon li a {
   color: #000;
   background: #fff;
-  width: 35px;
-  height: 35px;
-  line-height: 40px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   display: block;
   text-align: center;
   border-radius: 100%;
-  font-size: 16px;
+  font-size: 25px;
   margin: 15px 6px 12px 6px;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
 }
 
 .footer-area .social-icon li a:hover {
@@ -1320,4 +1323,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.lni-twitter-filled:before {
+    content: '𝕏';
+    font-family: unset;
+    font-weight: bold;
 }

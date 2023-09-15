@@ -31,7 +31,7 @@
     /* ==========================================================================
     countdown timer
     ========================================================================== */
-     jQuery('#clock').countdown('2023/10/01',function(event){
+     jQuery('#clock').countdown('2023/10/14',function(event){
       var $this=jQuery(this).html(event.strftime(''
       +'<div class="time-entry days"><span>%-D</span> 日</div> '
       +'<div class="time-entry hours"><span>%H</span> 時間</div> '
